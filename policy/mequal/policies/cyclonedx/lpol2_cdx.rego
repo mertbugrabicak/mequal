@@ -6,7 +6,7 @@
 #   short_name: LPOL2_CDX
 #   severity: error
 #   level: L1
-package mequal.policies.cyclonedx.LPOL2
+package mequal.policies.cyclonedx.LPOL2_CDX
 
 import data.ec.lib
 import data.ec.lib.util.is_cdx
@@ -65,7 +65,7 @@ deny contains result if {
 	not input.metadata.component.version
 	result := object.union(
 		lib.result_helper(rego.metadata.chain(), []),
-		{"policy_level": "L1", "policy_id": "ID_LPOL2_CDX"},
+		{"policy_level": "L1", "policy_id": "LPOL2_CDX"},
 	)
 }
 
