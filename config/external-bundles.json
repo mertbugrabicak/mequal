@@ -1,0 +1,12 @@
+[
+    {
+        "name": "ec",
+        "description": "Helper functions for nice output, unit testing, and Conforma compatibility",
+        "uri": "github.com/sbomer-project/mequal-helpers//ec"
+    },
+    {
+        "name": "prodsec",
+        "description": "Policy bundle related to TPA ingestion",
+        "uri": "github.com/sbomer-project/mequal-prodsec-policies//policy/prodsec"
+    }
+]
