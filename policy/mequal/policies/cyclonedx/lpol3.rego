@@ -3,7 +3,7 @@
 # description: >-
 #   Check if all packages in the CycloneDX SBOM include checksums
 # custom:
-#   short_name: LPOL3
+#   short_name: LPOL3_CDX
 #   severity: error
 #   level: L1
 package mequal.policies.cyclonedx.LPOL3

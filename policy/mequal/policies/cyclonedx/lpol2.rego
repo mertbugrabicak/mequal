@@ -3,7 +3,7 @@
 # description: >-
 #   SBOM Level grading policy 2. Check if all packages in the SBOM include a version and a bom-ref, and has components
 # custom:
-#   short_name: LPOL2
+#   short_name: LPOL2_CDX
 #   severity: error
 #   level: L1
 package mequal.policies.cyclonedx.LPOL2
@@ -65,7 +65,7 @@ deny contains result if {
 	not input.metadata.component.version
 	result := object.union(
 		lib.result_helper(rego.metadata.chain(), []),
-		{"policy_level": "L1", "policy_id": "LPOL2"},
+		{"policy_level": "L1", "policy_id": "LPOL2_CDX"},
 	)
 }
 

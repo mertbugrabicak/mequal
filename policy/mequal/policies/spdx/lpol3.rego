@@ -3,7 +3,7 @@
 # description: >-
 #   Check if all packages in the SPDX SBOM include checksums
 # custom:
-#   short_name: LPOL3
+#   short_name: LPOL3_SPDX
 #   severity: error
 #   level: L1
 package mequal.policies.spdx.LPOL3

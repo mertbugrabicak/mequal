@@ -3,7 +3,7 @@
 # description: >-
 #   Check if all packages in the SBOM include a version
 # custom:
-#   short_name: LPOL2
+#   short_name: LPOL2_SPDX
 #   severity: error
 #   level: L1
 package mequal.policies.spdx.LPOL2
